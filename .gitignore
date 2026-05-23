@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Recorded sessions may contain real prompt data — never commit by default.
+sessions/
+*.jsonl
+
+# Generated configs are commitable, but the local scratch one isn't tracked.
+demo-fakellm.yaml
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
