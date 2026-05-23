@@ -9,7 +9,7 @@ description = "Record real OpenAI/Anthropic API traffic and emit fakellm.yaml ru
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "you" }]
+authors = [{ name = "Douglas Gregor", email = "1dg618@gmail.com" }]
 keywords = ["fakellm", "testing", "mock", "openai", "anthropic", "llm", "vcr"]
 dependencies = [
     "starlette>=0.37",
@@ -30,3 +30,8 @@ packages = ["src/fakellm_recorder"]
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+
+[project.urls]
+Homepage = "https://github.com/1dg618/fakellm-recorder"
+Repository = "https://github.com/1dg618/fakellm-recorder"
+Issues = "https://github.com/1dg618/fakellm-recorder/issues"
