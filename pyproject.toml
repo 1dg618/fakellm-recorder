@@ -24,14 +24,14 @@ dev = ["pytest>=8.0", "fastapi>=0.110"]
 [project.scripts]
 fakellm-recorder = "fakellm_recorder.cli:main"
 
+[project.urls]
+Homepage = "https://github.com/1dg618/fakellm-recorder"
+Repository = "https://github.com/1dg618/fakellm-recorder"
+Issues = "https://github.com/1dg618/fakellm-recorder/issues"
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/fakellm_recorder"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
-
-[project.urls]
-Homepage = "https://github.com/1dg618/fakellm-recorder"
-Repository = "https://github.com/1dg618/fakellm-recorder"
-Issues = "https://github.com/1dg618/fakellm-recorder/issues"
